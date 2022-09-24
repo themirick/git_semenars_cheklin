@@ -74,3 +74,10 @@ _создаёт и сразу переходит на новую ветку new_
 
     git branch / git checkout -b  new_branch branch
 _создаёт новую ветку new_branch от указанной ветки branch_
+
+    git diff
+_показывает разницу между сделанным изменением и предыдущим коммитом. Можно сделать до команды git add или git commit -am._
+
+    git diff commit_1 commit_2
+
+_показывает разницу между коммитами commit_1 и commit_2_
