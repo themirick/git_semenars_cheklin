@@ -78,6 +78,9 @@ _показывает разницу между коммитами commit_1 и c
     git branch
 _показывает информацию о существующих ветках_
 
+    git branch -M name_branch
+_делает ветку основной_
+
     git branch new_branch
 _создаёт новую ветку new_branch_
 
