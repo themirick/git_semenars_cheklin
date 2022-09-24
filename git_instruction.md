@@ -41,9 +41,17 @@ _регистрирует созданный файл в инденксе изм
 _то же самое что git add "file" затем git commit и дальше запускается редактор по умолчанию_
 
     git branch
-
 _показывает информацию о существующих ветках_
 
     git branch new_branch
 
 _создаёт новую ветку new_branch_
+
+    git checkout new_branch
+_переходит на другую ветку, например new_branch_
+
+    git checkout -b new_branch
+_создаёт и сразу переходит на новую ветку new_branch_
+
+    git branch / git checkout -b  new_branch branch
+_создаёт новую ветку new_branch от указанной ветки branch_
